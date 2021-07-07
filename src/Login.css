@@ -1,0 +1,53 @@
+ .login{
+
+    background-color: #ebebeb;
+    height:200vh;
+    width:100vw;
+    display: grid;
+    place-items: center;
+
+
+
+ }
+ .login-container{
+     padding: 50px;
+     text-align: center;
+     padding: 100px;
+     background-color: white;
+     border-radius: 10px;
+     box-shadow: 1px 4px 14px -3px rgb(0,0,0,0.5);
+
+ }
+ .login-container >img{ 
+     height:150px;
+     margin-bottom:40px;
+     object-fit: contain;
+
+
+ }
+
+ .login-container >Button{
+    margin-top: 50px;
+    color: white;
+    background-color: blue;
+}
+
+
+
+
+
+
+.login-container >Button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+}
+
+
+ 
+ .login-text >h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: blue;
+    
+ }
